@@ -1,22 +1,23 @@
 {
   "name": "todo-api",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha server/**/*.test.js",
-    "test-watch": "nodemon --exec 'npm test'"
-  },
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
     "mongodb": "^2.2.5",
-    "mongoose": "^5.2.9"
+    "mongoose": "^4.5.9"
   },
   "devDependencies": {
     "expect": "^1.20.2",
-    "mocha": "^5.2.0",
-    "nodemon": "^1.18.3",
-    "supertest": "^3.1.0"
+    "mocha": "^3.0.2",
+    "nodemon": "^1.10.2",
+    "supertest": "^2.0.0"
+  },
+  "scripts": {
+    "test": "mocha server/**/*test.js",
+    "test-watch": "nodemon --exec 'npm test'"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,5 @@
   "bugs": {
     "url": "https://github.com/vivekkmr52/node-course-todo-api/issues"
   },
-  "homepage": "https://github.com/vivekkmr52/node-course-todo-api#readme",
-  "description": ""
+  "homepage": "https://github.com/vivekkmr52/node-course-todo-api#readme"
 }
